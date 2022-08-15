@@ -1,0 +1,46 @@
+{
+  "name": "specinweb/php-memcached",
+  "description": "Memcached.php - PHP Memcached client with support of Memcached protocol.",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Pralnikov Ivan",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.0",
+    "gpupo/cache": "^1.2"
+  },
+  "require-dev": {
+    "satooshi/php-coveralls": "^1.0",
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+      "psr-4": {
+          "Specinweb\\": "src/Memcached"
+      }
+  },
+  "include-path": ["src/"],
+  "keywords": [
+    "Memcached",
+    "Client",
+    "Memcache",
+    "PHP",
+    "memory",
+    "inmemory",
+    "nosql"
+  ],
+  "homepage": "https://github.com/Specinweb/Memcached",
+  "license": "BSD-3-Clause",
+  "support": {
+    "email": "webexstudio@mail.ru",
+    "issues": "https://github.com/pecinweb/Memcached/issues",
+  },
+  "config" : {
+    "bin-dir" : "bin",
+    "preferred-install": "dist"
+  }
+}
