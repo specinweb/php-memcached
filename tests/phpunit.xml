@@ -14,7 +14,7 @@
          timeoutForLargeTests="60"
 >
     <testsuites>
-        <testsuite name="Memcached.php">
+        <testsuite name="Memcached">
             <directory>.</directory>
         </testsuite>
     </testsuites>
