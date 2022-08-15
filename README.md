@@ -2,9 +2,7 @@
 
 **Create Memcached.php instance**
 
-$memcached = new Client(
-'127.0.0.1'
-);
+`$memcached = new Client('127.0.0.1');`
 
 **Random string**
 
