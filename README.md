@@ -1,19 +1,23 @@
 # php-memcached
 
-// Create Memcached.php instance ...
+**Create Memcached.php instance**
 
 $memcached = new Client(
 '127.0.0.1'
 );
 
-// Random string
-$dummy = md5(rand(1111, 9999));
+**Random string**
 
-// Set
-$memcached->set($dummy, 1);
+`$dummy = md5(rand(1111, 9999));`
 
-// Get
-$result = $memcached->get($dummy);
+**Set**
 
-// Delete
-$memcached->delete($dummy);
+`$memcached->set($dummy, 1);`
+
+ **Get**
+
+`$result = $memcached->get($dummy);`
+
+**Delete**
+
+`$memcached->delete($dummy);`
